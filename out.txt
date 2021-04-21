@@ -1,0 +1,123 @@
+B+ Tree Program
+Enter order and leafOrder: Enter operation in the following format: 
+ins <num>
+search <num>
+search_range <num1> <num2> (num1 <= num2)
+exit (to terminate)
+Inserted 8
+Inserted 5
+Inserted 1
+Inserted 7
+Inserted 3
+Inserted 12
+Inserted 11
+Inserted 9
+Inserted 6
+Inserted 10
+B+ Tree:
+{  7  9 }, 
+{  5 }, {  8 }, {  11 }, 
+{  1  3 }, {  5  6 }, {  7 }, {  8 }, {  9  10 }, {  11  12 }, 
+Found
+Found
+Not Found
+Range Search Start
+Found 5
+Found 6
+Found 7
+Found 8
+Range Search End
+B+ Tree:
+{  7  9 }, 
+{  6 }, {  8 }, {  11 }, 
+{  1  3 }, {  6 }, {  7 }, {  8 }, {  9  10 }, {  11  12 }, 
+B+ Tree:
+{  7  9 }, 
+{  6 }, {  8 }, {  11 }, 
+{  1  3 }, {  6 }, {  7 }, {  8 }, {  9  10 }, {  11  12 }, 
+Deleted 5
+B+ Tree:
+{  7  9 }, 
+{  6 }, {  8 }, {  11 }, 
+{  1 }, {  6 }, {  7 }, {  8 }, {  9  10 }, {  11  12 }, 
+B+ Tree:
+{  7  9 }, 
+{  6 }, {  8 }, {  11 }, 
+{  1 }, {  6 }, {  7 }, {  8 }, {  9  10 }, {  11  12 }, 
+Deleted 3
+B+ Tree:
+{  7  9 }, 
+{  6 }, { }, {  11 }, 
+{  1 }, {  6 }, {  7 }, {  9  10 }, {  11  12 }, 
+B+ Tree:
+{  9 }, 
+{  6  7 }, {  11 }, 
+{  1 }, {  6 }, {  7 }, {  9  10 }, {  11  12 }, 
+Deleted 8
+B+ Tree:
+{  9 }, 
+{  6  7 }, {  11 }, 
+{  1 }, {  6 }, {  7 }, {  9 }, {  11  12 }, 
+B+ Tree:
+{  9 }, 
+{  6  7 }, {  11 }, 
+{  1 }, {  6 }, {  7 }, {  9 }, {  11  12 }, 
+Deleted 10
+B+ Tree:
+{  9 }, 
+{  6  7 }, {  12 }, 
+{  1 }, {  6 }, {  7 }, {  9 }, {  12 }, 
+B+ Tree:
+{  9 }, 
+{  6  7 }, {  12 }, 
+{  1 }, {  6 }, {  7 }, {  9 }, {  12 }, 
+Deleted 11
+B+ Tree:
+{  9 }, 
+{  6  7 }, {  12 }, 
+{  1 }, {  6 }, {  7 }, {  9 }, {  12 }, 
+Range Search Start
+Found 1
+Found 6
+Found 7
+Found 9
+Found 12
+Range Search End
+Range Search Start
+Found 6
+Found 7
+Range Search End
+B+ Tree:
+{  12 }, 
+{  6  7 }, { }, 
+{  1 }, {  6 }, {  7 }, {  12 }, 
+B+ Tree:
+{  7 }, 
+{  6 }, {  12 }, 
+{  1 }, {  6 }, {  7 }, {  12 }, 
+Deleted 9
+B+ Tree:
+{  12 }, 
+{  6 }, { }, 
+{  1 }, {  6 }, {  12 }, 
+B+ Tree:
+{ }, 
+{  6  12 }, 
+{  1 }, {  6 }, {  12 }, 
+Deleted 7
+B+ Tree:
+{  6  12 }, 
+{  1 }, {  6 }, {  12 }, 
+B+ Tree:
+{  12 }, 
+{  1 }, {  12 }, 
+Deleted 6
+B+ Tree:
+{ }, 
+{  12 }, 
+Deleted 1
+B+ Tree:
+{  12 }, 
+Deleted 12
+B+ Tree:
+{ }, 

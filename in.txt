@@ -1,0 +1,33 @@
+3 2
+ins 8
+ins 5
+ins 1
+ins 7
+ins 3
+ins 12
+ins 11
+ins 9
+ins 6
+ins 10
+print
+search 10
+search 11
+search 2
+search_range 5 8
+del 5
+del 3
+del 8
+del 10
+del 11
+print
+search_range 1 100
+search_range 2 7
+del 9
+del 7
+print
+del 6
+del 1
+print
+del 12
+print
+exit
